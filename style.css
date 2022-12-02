@@ -1,0 +1,59 @@
+body{
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=3057&resolucion=1920x1080);
+    background-size: 100%;
+    font-family: 'Fragment Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    width: 100%;
+    background-color: rgb(164, 5, 0);
+    color: rgb(255, 137, 137) ;
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+    transition: 0.4s;
+}
+
+#number_of_objects{
+    background-color: rgb(0, 117, 164);
+    color: rgb(47, 196, 255) ;
+    height: 75px;
+    text-align: center;
+    font-size: 60px;
+    width: 750px;
+    border-radius: 15px;   
+    cursor: pointer;
+    transition: 0.4s;
+}
+#status{
+    background-color: rgb(164, 0, 0);
+    color: rgb(255, 129, 129) ;
+    height: 65px;
+    text-align: center;
+    font-size: 50px;
+    width: 400px;
+    border-radius: 15px;   
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#start{
+    background-color: rgb(66, 164, 0);
+    color: rgb(94, 235, 0) ;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    width: 230px;
+    border-radius: 15px;   
+    cursor: pointer;   
+    border: none;
+    font-family: 'Fragment Mono', monospace;
+    transition: 0.4s;
+}
+ #number_of_objects:hover{
+    background-color:rgb(0, 74, 103);
+    color: rgb(0, 149, 207);
+    right: 50px;
+}
